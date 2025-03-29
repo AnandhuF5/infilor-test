@@ -1,0 +1,137 @@
+@media only screen and (min-width : 1400px) {}
+
+@media only screen and (max-width: 1400px) and (min-width : 1201px) {}
+
+@media only screen and (max-width: 1200px) and (min-width : 992px) {
+    
+}
+
+@media only screen and (max-width: 992px) and (min-width : 768px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel{
+        display: none;
+    }
+    .menu-section{
+        top: 0;
+    }
+    .bannermain{
+        background-image: url('../img/slide-1.jpg');
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .bannerImg{
+        background: rgba(0, 0, 0, 0.7);
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-caption h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: 'Poppins-Black';
+    }
+    
+    .carousel-caption p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins-Regular';
+        margin-bottom: 20px;
+    }
+    .abt-text img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .logoSec{
+        overflow: hidden;
+    }
+    .menu-section img{
+        width: 100px;
+    }
+    
+    .bannerText h2 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+    
+    .bannerText p {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+
+    .carousel{
+        display: none;
+    }
+    .menu-section{
+        top: 0;
+    }
+    .bannermain{
+        background-image: url('../img/slide-1.jpg');
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .bannerImg{
+        background: rgba(0, 0, 0, 0.7);
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-caption h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-family: 'Poppins-Black';
+    }
+    
+    .carousel-caption p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins-Regular';
+        margin-bottom: 20px;
+    }
+    .abt-text img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .logoSec{
+        overflow: hidden;
+    }
+    .menu-section img{
+        width: 100px;
+    }
+    
+    .bannerText h2 {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+    
+    .bannerText p {
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .menuSec{
+        width: 100%;
+    }
+}
